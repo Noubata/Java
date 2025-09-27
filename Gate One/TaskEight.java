@@ -10,6 +10,7 @@ public static void main(String[]args){
 	int sum1 = 0;
 
 	int divide1 = 0;
+	int divide2 = 0;
 
 	while(number < 10){
 	number++;
@@ -24,9 +25,7 @@ public static void main(String[]args){
 	
 	sum = number+number1+number2+number3+number4;
 	
-	divide1 = sum/10;
-	divide2 = sum%10;
-	System.out.printf("%d %d", divide1, divide2);
+	System.out.println(sum);
 	
 	}
 	
