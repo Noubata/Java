@@ -44,9 +44,6 @@ import java.util.Scanner;
 			System.out.println("8. Options:");
 			System.out.println("9. Speed dials");
 			System.out.println("10. Voice tags");
-			System.out.println("11. Clock");
-			System.out.println("12. Profiles");
-			System.out.println("13. SIM services");
 			System.out.println("0. back");
 			System.out.println("Enter your choice: ");
 			back = gettingIn.nextInt();
@@ -60,8 +57,8 @@ import java.util.Scanner;
 			System.out.println("5. Templates");
 			System.out.println("6. Smileys");
 			System.out.println("7. Messages settings");
-				{
-				System.out.println("	1. Set 1");
+				 switch(userInput){
+				case 1: System.out.println("	1. Set 1");
 					{
 					System.out.println("		1. Message centre number");
 					System.out.println("		2. Message sent as");
