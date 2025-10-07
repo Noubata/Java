@@ -38,9 +38,7 @@ public class Kata{
 	return false;
 	}
 	int divisor = 0;
-	int reversed = number;
 	int toStore = 0;
-	int toRemove = 0;
 	while(number != 0){
 	divisor = number%10;
 	toStore = toStore*10+divisor;
